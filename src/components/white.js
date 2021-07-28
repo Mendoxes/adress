@@ -1,9 +1,12 @@
 
 
 function White({parentChild,ox1,ox2,ox3,ox4,ox5,ox6,ox7}) {
-
+  function  print(){
+        window.print();
+    }
     return(
-   <div  className="white">
+   <div  className="white" onClick={print}>
+      
        <p>{ox5}</p>
 <p>{parentChild}</p>
   <p>{ox1}</p>
