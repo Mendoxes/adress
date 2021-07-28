@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './App'
+import Navb from "./components/Navbar"
+import Hero from "./components/Hero"
 import reportWebVitals from './reportWebVitals';
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <Navb /> */}
+    <Hero />
   </React.StrictMode>,
   document.getElementById('root')
 );
