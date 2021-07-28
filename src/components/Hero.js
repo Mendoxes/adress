@@ -109,19 +109,19 @@ lup.map((item,index)=>{
 
         <Router>
             <Route path="/home">
-<div>
+<div className="main">
 <Link to="/white"><button onClick={()=> parentChild()} >Click to create</button></Link>
 <form>
 
-<input placeholder ="Order number"
+<input className="field" placeholder ="Order number"
 value ={title1}
 onChange={(e)=>SetTitle1(e.target.value)}
 ></input>
-<input placeholder="Pallet number"
+<input className="field" placeholder="Pallet number"
 value ={title2} type="number"
 onChange={(e)=>SetTitle2(e.target.value)}
 ></input>
-<input placeholder="Box number"
+<input className="field" placeholder="Box number"
 value ={title3} type="number"
 onChange={(e)=>SetTitle3(e.target.value)}
 ></input>

@@ -2,3 +2,10 @@
     font-size: 4rem;
       text-align: center;
   }
+
+  .main{
+    text-align: center;
+    padding: 4rem;
+  }
+
+  .field{margin:2rem}
